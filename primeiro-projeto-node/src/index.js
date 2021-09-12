@@ -53,7 +53,7 @@ app.post("/account", (request, response) => {
   customers.push({
     cpf,
     name,
-    id: uuidv4(),
+    id,
     statement: [],
   });
 
