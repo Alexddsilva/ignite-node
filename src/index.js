@@ -140,6 +140,15 @@ app.delete("/delete", verifyIfExistAccountCPF, (request, response) => {
 
   return response.json({ customers });
 });
+
+app.get("/balance", verifyIfExistAccountCPF, (request, response) => {
+  const { customer } = request;
+
+  const balance = getBalance(customer.statement);
+
+  return response.json({ balance: balance });
+});
+
 const port = 3333;
 
 app.listen(port, console.log(`Servidor iniciado : ${port}`));
