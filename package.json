@@ -1,16 +1,12 @@
 {
-  "name": "Ignite node",
+  "name": "Ignite",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
-    "primeiro-projeto-node": "nodemon primeiro-projeto-node/src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "express": "^4.17.1",
-    "uuid": "^8.3.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.12"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
 }
