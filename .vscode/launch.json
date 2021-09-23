@@ -1,0 +1,22 @@
+{
+  // Use o IntelliSense para saber mais sobre os atributos possíveis.
+  // Focalizar para exibir as descrições dos atributos existentes.
+  // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Desafio Node 01",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/desafio-01-conceitos-node/src/server.js"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Desafio Node 02",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/desafio-02-trabalhando-com-middlewares/src/server.js"
+    }
+  ]
+}
