@@ -44,12 +44,11 @@ function checksTodoExists(request, response, next) {
   if (!user)
     return response.status(404).json({ error: "You should be logged in!" });
 
-  request.user = user;
-
   const todo = user.todos.find((todo) => todo.id === id);
 
   if (!todo) return response.status(404).json({ error: "Todo not found!" });
 
+  request.user = user;
   request.todo = todo;
 
   next();
