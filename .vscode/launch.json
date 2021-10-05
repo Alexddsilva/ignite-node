@@ -17,6 +17,13 @@
       "name": "Desafio Node 02",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/desafio-02-trabalhando-com-middlewares/src/server.js"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Desafio Node 03",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/desafio-03-corrigindo-o-codigo/src/server.js"
     }
   ]
 }
